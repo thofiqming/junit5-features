@@ -53,4 +53,11 @@ class Junit5Features {
         System.out.println(repetitionInfo.getCurrentRepetition());
     }
 
+    //Tag test to run only specific test but need to configure maven plugin
+    @Test
+    @Tag("important")
+    public void tagTest(){
+
+    }
+
 }
